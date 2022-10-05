@@ -14,5 +14,5 @@ def generate_round():
             if random_number2 % i == 0:
                 divisor = max(i, divisor)
                 correct_answer = str(divisor)
-    question_correct_answer = (question, correct_answer)           
+    question_correct_answer = (question, correct_answer)
     return question_correct_answer

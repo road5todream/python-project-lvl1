@@ -11,5 +11,5 @@ def generate_round():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    question_correct_answer = (question, correct_answer) 
+    question_correct_answer = (question, correct_answer)
     return question_correct_answer

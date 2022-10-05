@@ -8,7 +8,7 @@ def create_progression(start = 0, difference = 0, lenght = 0):
     if start == 0 and difference == 0 and lenght == 0:
         start = randint(1, 100)
         difference = randint(1, 20)
-        lenght = randint(5, 10) 
+        lenght = randint(5, 10)
     finish = start + difference * lenght
     progression = []
     while start <= finish:
@@ -27,5 +27,5 @@ def generate_round():
         if i == hiden_number:
             progression[i] = '..'
     question = ('Question: ' + ' '.join(progression))
-    question_correct_answer = (question, correct_answer)          
+    question_correct_answer = (question, correct_answer)
     return question_correct_answer
