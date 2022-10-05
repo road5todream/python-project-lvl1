@@ -4,7 +4,7 @@ from random import randint
 TASK = 'What number is missing in the progression?'
 
 
-def create_progression(start = 0, difference = 0, lenght = 0):
+def create_progression(start=0, difference=0, lenght=0):
     if start == 0 and difference == 0 and lenght == 0:
         start = randint(1, 100)
         difference = randint(1, 20)
